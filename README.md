@@ -52,3 +52,4 @@ Choose your desired `vimiumc-theme.css` and place it into `Custom CSS for Vimium
 ## **Cons**
 - All themes are rather same. Colors differ.
 - Due to bad set of some variables in [template.css](template.css) you might experiece (with some themes) bad readability in `link highlight mode`.
+- Themes have dark mode (those with mixed colors), but can't assure it will work with chromium based browsers. (my works and firefox too)
