@@ -1,0 +1,26 @@
+  --font-size: 17px;
+  --font-size-link: 12px;
+  --font-weight: normal;
+  --font: Source Code Pro, sans;
+  --padding: 0px;
+  --shadow: 0 2px 4px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+  /* ----------  DAY THEME  ---------- */
+  --bg: #d8dee9;
+  --fg: #eceff4;
+  --accent-fg: #eceff4;
+  --border: #bf616a;
+  --title: #5e81ac;
+  --title-accent: #bf616a;
+  --link: #81a1c1;
+  --link-accent: #b48ead;
+  
+  /* ---------- NIGHT THEME ---------- */
+  --nbg: #2e3440;
+  --nfg: #4c566a;
+  --naccent-fg: #4c566a;
+  --nborder: #bf616a;
+  --ntitle: #5e81ac;
+  --ntitle-accent: #a3be8c;
+  --nlink: #81a1c1;
+  --nlink-accent: #d08770;
