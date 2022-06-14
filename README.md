@@ -22,7 +22,7 @@ to easily create custom theme tailored to your needs.
 
 ### **Why script and not `:root{} pseudo-class`?**
 The problem with vimium-c CSS is that it must have certain [structure](https://github.com/gdh1995/vimium-c/wiki/Style-the-UI-of-Vimium-C-using-custom-CSS#basic-structure)
-and since I am not either CSS coder I solved it with this workaround.
+and since I am not either CSS coder I solved it with this workaround. Remember don't delete `/*insertroot*/` line from template.css or the script won't work.
 
 ## **Installation**
 Choose your desired `vimiumc-theme.css` and place it into `Custom CSS for Vimium C UI` field in `Advance Options`.
