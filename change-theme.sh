@@ -1,13 +1,7 @@
-#!/usr/bin/env bash
-#set -x
-FILEROOT="root.css"
-FILETEMPLATE="template.css"
-COOLNAME="$1"
+#!/usr/bin/env sh
 
-if [[ $COOLNAME != "" ]]; then
-  cp $FILETEMPLATE $COOLNAME
-  sed -i "\/\*insertroot\*\//r $FILEROOT" $COOLNAME
+if [ -n "$1" ]; then
+  sed "\_/\*insertroot\*/_ r root.css" template.css >"$1"
 else
   echo "please provide name"
 fi
-
